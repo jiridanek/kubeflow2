@@ -22,7 +22,7 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "fix(deps)"
-    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates#overriding-the-default-behavior-with-a-configuration-file
+    # https://docs.github.com/en/enterprise-cloud@latest/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#groups
     groups:
       go:
         applies-to: security-updates
